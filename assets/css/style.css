@@ -1,0 +1,64 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-image: url("../images/dust_scratches.png");
+  font-family: 'Roboto Slab', sans-serif;
+  margin-bottom: 60px;
+}
+
+.bg-teal{
+  background-color: #4aaaa5;
+}
+
+.text-teal{
+  color: #4aaaa5;
+}
+
+.text-content{
+  color: #777777;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.my-icon {
+  width: 70px;
+}
+
+.my-border {
+  border-bottom: 2px solid #dddddd;
+}
+
+.inside-caption {
+  bottom:0;
+  position: absolute;
+  width: 100%
+}
+
+.piped li {
+  height: 30px;
+  border-left: 1px solid #ccc;
+  padding: 0 10px;
+}
+
+.piped li:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.footer {
+  position: absolute;
+  background: #666666;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+}
+
+.content-block {
+    margin: 20px 0;
+}
